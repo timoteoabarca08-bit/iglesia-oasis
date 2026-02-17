@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGLESIA GLORIOSA DE JESUCRISTO OASIS</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#fdfcfc;
+    color:#534097;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+    url('WhatsApp Image 2026-02-16 at 10.06.20 PM (2) - copia.jpeg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+header h1{font-size:38px;margin:0;font-weight:700;}
+header p{font-size:20px;margin-top:10px;}
+
+nav{
+    background:#0d1b2a;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:500;
+}
+
+nav a:hover{color:#00b4d8;}
+
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{text-align:center;margin-bottom:40px;color:#0d1b2a;}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+iframe{width:100%;border-radius:15px;}
+
+footer{
+    background:#0d1b2a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>IGLESIA GLORIOSA DE JESUCRISTO OASIS</h1>
+    <p>Un lugar donde tu fe crece y tu vida se transforma</p>
+</header>
+
+<nav>
+    <a href="#horarios">Horarios</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="horarios">
+    <h2>Horarios de Culto</h2>
+    <div class="cards">
+        <div class="card"><h3>Domingo</h3><p>9:00 AM y 11:00 AM</p></div>
+        <div class="card"><h3>Miércoles</h3><p>6:30 PM - Estudio Bíblico</p></div>
+        <div class="card"><h3>Viernes</h3><p>6:30 PM - Culto De Fe</p></div>
+        <div class="card"><h3>Viernes</h3><p>6:30 PM - Culto De Fe</p></div>
+    </div>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p style="text-align:center;"><strong>PR6J+855, Av. Masferrer, San Salvador</strong></p>
+    <iframe height="400"
+    src="https://maps.google.com/maps?q=PR6J+855,+Av.+Masferrer,+San+Salvador&output=embed">
+    </iframe>
+</section>
+
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <p style="text-align:center;">
+        Escríbenos directamente o contáctanos por WhatsApp.
+    </p>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <form action="mailto:marcosemaflo@gmail.com" method="post" enctype="text/plain" style="text-align:center; margin-top:20px;">
+        
+        <input type="text" name="nombre" placeholder="Tu nombre" required 
+        style="padding:10px; width:250px; margin:5px;"><br>
+
+        <input type="email" name="correo" placeholder="Tu correo" required 
+        style="padding:10px; width:250px; margin:5px;"><br>
+
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required 
+        style="padding:10px; width:250px; height:100px; margin:5px;"></textarea><br>
+
+        <button type="submit" 
+        style="padding:10px 20px; background-color:green; color:white; border:none; cursor:pointer;">
+        Enviar Mensaje
+        </button>
+    </form>
+
+    <!-- BOTÓN DE WHATSAPP -->
+    <div style="text-align:center; margin-top:20px;">
+        <a href="https://wa.me/50374950843" target="_blank"
+        style="padding:10px 20px; background-color:#25D366; color:white; text-decoration:none; border-radius:5px;">
+        Hablar por WhatsApp
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 IGLESIA GLORIOSA DE JESUCRISTO OASIS | San Salvador
+</footer>
+
+</body>
+</html>
